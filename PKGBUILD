@@ -1,5 +1,5 @@
 # Maintainer: 160R@protonmail.com
-pkgname=fullspawn
+pkgname=newspawn
 pkgver=0.1.0
 pkgrel=1
 makedepends=('rust' 'cargo')
