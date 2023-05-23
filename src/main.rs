@@ -22,9 +22,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // Try spawn on a new workspace
     let mut i = 1;
-    for w in &workspaces {
-        println!("{:?}", w.num);
-    }
     for _ in 0..9 {
         if workspaces.iter().any(|ws| ws.num.unwrap() == i) {
             i = i + 1;
